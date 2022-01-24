@@ -98,11 +98,13 @@ body {
   background: #000;
   top: 0px;
   right: 0px;
-  height: 320px;
+  height: 330px;
   width: 150px;
   border-radius: 0 0 0 50px;
   z-index: 5;
   padding: 60px 0 0 0;
+  display: none;
+
 }
 .logo {
   order: 1;
