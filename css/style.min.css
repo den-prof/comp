@@ -97,8 +97,8 @@ body {
   text-align: right;
   background: #000;
   top: 0px;
-  right: 10px;
-  max-height: 310px;
+  right: 0px;
+  height: 320px;
   width: 150px;
   border-radius: 0 0 0 50px;
   z-index: 5;
@@ -154,6 +154,7 @@ body {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+  padding: 0 10px 0 0;
 }
 
 .br {
