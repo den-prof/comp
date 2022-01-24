@@ -608,7 +608,7 @@ body {
   padding-bottom: 40px;
   z-index: 99999;
 }
-.header__inner {
+
 .burger__list-b {
   display: flex;
   order: 2;
@@ -624,7 +624,7 @@ body {
   display: none;
   
 }
-}
+
 @media (max-width: 1280px) {
   .line-blak {
     max-width: 500px;
