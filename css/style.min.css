@@ -96,7 +96,17 @@ body {
 
 
 #checkbox:checked ~ .burger__list-b {
-     display: block;
+  display: block;
+  right: 0;  
+}
+#checkbox:checked ~ .b-line1 {
+  transform: rotate(45deg);
+}
+#checkbox:checked ~ .b-line2 {
+  opacity: 0;
+}
+#checkbox:checked ~ .b-line3 {
+  transform: rotate(-45deg);
 }
 
 .burger__list-b {
@@ -106,7 +116,7 @@ body {
   text-align: right;
   background: #000;
   top: 0px;
-  right: 0px;
+  right: -100%;
   height: 330px;
   width: 150px;
   border-radius: 0 0 0 50px;
