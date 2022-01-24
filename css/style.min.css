@@ -96,6 +96,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 800px
 }
 .logo {
   order: 1;
@@ -110,11 +111,7 @@ body {
 .checkbox {
   display: none;
 }
-.br {
-  padding-right: 10px;
-  margin-right: 10px;
-  width: 70px
-}
+
 
 
 
