@@ -124,6 +124,12 @@ body {
   margin-right: auto;
   margin-left: auto;
   order: 2;
+  max-width: 200px
+  
+}
+.button {
+  margin-right: auto;
+  margin-left: auto;
 }
 .burger-lins {
   order: 3;
