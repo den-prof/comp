@@ -95,7 +95,10 @@ body {
 
 
 
-
+.checkbox:checked {
+  .burger__list-b
+     display: block;
+}
 
 .burger__list-b {
   position: absolute;
