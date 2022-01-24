@@ -96,10 +96,10 @@ body {
   flex-direction: column;
   text-align: right;
   background: #000;
-  top: 0;
+  top: 60px;
   right: 0;
   height: 250px;
-  width: 150px;
+  width: 130px;
   border-radius: 0 0 0 50px;
   z-index: 5;
 }
