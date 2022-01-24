@@ -91,22 +91,25 @@ body {
 
 
 .burger__list-b {
-  order: 2;
+  position: absolute;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 800px
+  flex-direction: column;
+  text-align: right;
+  background: #000;
+  top: 0;
+  right: 0;
+  height: 250px;
+  width: 200px;
+  border-radius: 0 0 0 50px;
 }
 .logo {
   order: 1;
 }
 .inner__button {
-  order: 3
+  order: 2;
 }
 .burger-lins {
-  display: none;
-  
+  order: 3;
 }
 .checkbox {
   display: none;
