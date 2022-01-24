@@ -91,9 +91,11 @@ body {
 
 
 .burger__list-b {
-  display: flex;
   order: 2;
-  justify-content: space-between;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .logo {
   order: 1;
@@ -144,7 +146,6 @@ body {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
-  min-width: 60px;
 }
 
 .br {
