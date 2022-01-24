@@ -608,12 +608,7 @@ body {
   padding-bottom: 40px;
   z-index: 99999;
 }
-.burger-link {
-  order: 3;
-}
-.logo {
-  order: 1;
-}
+
 @media (max-width: 1280px) {
   .line-blak {
     max-width: 500px;
