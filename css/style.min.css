@@ -121,6 +121,8 @@ body {
   margin-right: auto;
 }
 .inner__button {
+  margin-right: auto;
+  margin-left: auto;
   order: 2;
 }
 .burger-lins {
