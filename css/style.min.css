@@ -95,7 +95,7 @@ body {
 
 
 
-.checkbox:checked ~ .burger__list-b {
+#checkbox:checked ~ .burger__list-b {
      display: block;
 }
 
