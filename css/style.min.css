@@ -625,9 +625,12 @@ body {
   }
 }
 .checkbox {
-  display: none
+  display: none;
 }
 @media (max-width: 1024px) {
+  .checkbox {
+    display: none;
+  }
   .c-i {
     max-width: 500px;
     width: 100%;
