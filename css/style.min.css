@@ -608,7 +608,7 @@ body {
   padding-bottom: 40px;
   z-index: 99999;
 }
-
+.header__inner {
 .burger__list-b {
   display: flex;
   order: 2;
@@ -617,11 +617,14 @@ body {
 .logo {
   order: 1;
 }
+.inner__button {
+  order: 3
+}
 .burger-lins {
   display: none;
   
 }
-
+}
 @media (max-width: 1280px) {
   .line-blak {
     max-width: 500px;
