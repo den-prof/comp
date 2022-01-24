@@ -98,10 +98,11 @@ body {
   background: #000;
   top: 60px;
   right: 0;
-  height: 250px;
-  width: 180px;
+  height: 310px;
+  width: 140px;
   border-radius: 0 0 0 50px;
   z-index: 5;
+  padding-top: 70px
 }
 .logo {
   order: 1;
@@ -112,6 +113,9 @@ body {
 .burger-lins {
   order: 3;
   z-index: 9999;
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
 .checkbox {
   display: none;
