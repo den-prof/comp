@@ -116,19 +116,14 @@ body {
 
 }
 .logo {
-  position: absolute;
-  top: 20px;
-  left: 20px;
+  order: 1;
+  margin-right: auto;
 }
 .inner__button {
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  top: 25px
+  order: 2;
 }
 .burger-lins {
-  margin-left: auto;
-  padding-right: 20px;
+  order: 3;
   z-index: 9999;
 }
 .checkbox {
