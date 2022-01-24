@@ -102,8 +102,8 @@ body {
   right: 0;
   transition: .3s;
 
-  #checkbox:checked ~ .b-line1 {
-    transform: rotate(45deg);
+  .b-line1 {
+     transform: rotate(45deg);
   }
 }
 #checkbox:checked ~ .b-line2 {
