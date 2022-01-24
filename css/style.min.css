@@ -98,16 +98,11 @@ body {
 
 
 #checkbox:checked ~ .burger__list-b  {
-  display: block;
+  opacity: 1;
+  visibility: visible;
   right: 0;
-  transition: .3s;
+  transition: all .3s;
 
-}
-.checkbox:checked ~ .b-line2 {
-  opacity: 0;
-}
-.checkbox:checked ~ .b-line3 {
-  transform: rotate(-45deg);
 }
 
 .burger__list-b {
@@ -123,8 +118,9 @@ body {
   border-radius: 0 0 0 50px;
   z-index: 5;
   padding: 60px 0 0 0;
-  display: none;
-  transition: .3s;
+  opasity: 0;
+  visibility: hidden;
+  transition: all .3s;
 .br {
 }
 
