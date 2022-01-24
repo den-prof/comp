@@ -100,15 +100,6 @@ body {
   display: block;
   right: 0;  
 }
-#checkbox:checked ~ .b-line1 {
-  transform: rotate(45deg);
-}
-#checkbox:checked ~ .b-line2 {
-  opacity: 0;
-}
-#checkbox:checked ~ .b-line3 {
-  transform: rotate(-45deg);
-}
 
 .burger__list-b {
   position: absolute;
