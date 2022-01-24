@@ -160,6 +160,7 @@ body {
   -o-transition: all 0.3s;
   transition: all 0.3s;
   padding: 0 10px 0 0;
+  display: none;
 }
 
 .br {
