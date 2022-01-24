@@ -110,6 +110,9 @@ body {
 .checkbox {
   display: none;
 }
+.br {
+ padding-right: 10px;
+}
 
 
 
