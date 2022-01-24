@@ -98,11 +98,12 @@ body {
 
 #checkbox:checked ~ .burger__list-b {
   display: block;
-  right: 0;  
+  right: 0;
+  .b-line1 {
+    transform: rotate(45deg);
 }
-#checkbox:checked ~ .b-line1 {
-  transform: rotate(45deg);
 }
+
 #checkbox:checked ~ .b-line2 {
   opacity: 0;
 }
