@@ -609,6 +609,14 @@ body {
   z-index: 99999;
 }
 
+.burger__list-b {
+  display: flex;
+}
+.burger-lins {
+  display: none;
+  
+}
+
 @media (max-width: 1280px) {
   .line-blak {
     max-width: 500px;
