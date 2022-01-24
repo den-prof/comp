@@ -97,19 +97,16 @@ body {
 
 
 
-#checkbox:checked ~ .burger__list-b ~ .b-line1 {
+#checkbox:checked ~ .burger__list-b  {
   display: block;
   right: 0;
   transition: .3s;
 
-  .b-line1 {
-     transform: rotate(45deg);
-  }
 }
-#checkbox:checked ~ .b-line2 {
+.checkbox:checked ~ .b-line2 {
   opacity: 0;
 }
-#checkbox:checked ~ .b-line3 {
+.checkbox:checked ~ .b-line3 {
   transform: rotate(-45deg);
 }
 
