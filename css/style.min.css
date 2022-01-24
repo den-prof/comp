@@ -624,6 +624,9 @@ body {
     height: 200px;
   }
 }
+.checkbox {
+  display: none
+}
 @media (max-width: 1024px) {
   .c-i {
     max-width: 500px;
