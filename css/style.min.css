@@ -99,7 +99,8 @@ body {
   top: 60px;
   right: 0;
   height: 310px;
-  width: 140px;
+  max-width: 140px;
+  width: 100%;
   border-radius: 0 0 0 50px;
   z-index: 5;
   padding-top: 70px
