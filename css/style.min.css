@@ -99,8 +99,9 @@ body {
   top: 0;
   right: 0;
   height: 250px;
-  width: 200px;
+  width: 150px;
   border-radius: 0 0 0 50px;
+  z-index: 5;
 }
 .logo {
   order: 1;
@@ -110,6 +111,7 @@ body {
 }
 .burger-lins {
   order: 3;
+  z-index: 9999;
 }
 .checkbox {
   display: none;
