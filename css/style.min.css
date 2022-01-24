@@ -647,7 +647,6 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     text-align: right;
-    position: absolute;
     width: 200px;
     height: 340px;
     background-color: #000;
