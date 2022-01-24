@@ -97,7 +97,7 @@ body {
 
 
 
-#checkbox:checked ~ .burger__list-b {
+#checkbox:checked ~ .burger__list-b ~ .b-line1 {
   display: block;
   right: 0;
   transition: .3s;
