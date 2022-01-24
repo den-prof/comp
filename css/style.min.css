@@ -89,7 +89,6 @@ body {
   background-image: url(../images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
-}
 
 
 
@@ -97,13 +96,6 @@ body {
 
 
 
-#checkbox:checked ~ .burger__list-b  {
-  opacity: 1;
-  visibility: visible;
-  right: 0;
-  transition: all .3s;
-
-}
 
 .burger__list-b {
   position: absolute;
@@ -111,8 +103,8 @@ body {
   flex-direction: column;
   text-align: right;
   background: #000;
-  top: 0px;
-  right: -100%;
+  top: -100%;
+  right: 0;
   height: 330px;
   width: 150px;
   border-radius: 0 0 0 50px;
@@ -121,7 +113,10 @@ body {
   opasity: 0;
   visibility: hidden;
   transition: all .3s;
-.br {
+.burger__list-b .active {
+  opasity: 1;
+  visibility: visible;
+  top: 0;
 }
 
 }
