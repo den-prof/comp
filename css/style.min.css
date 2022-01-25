@@ -637,18 +637,40 @@ body {
             flex-direction: column;
     text-align: right;
     position: absolute;
-    width: 200px;
+    width: 150px;
     height: 340px;
     background-color: #000;
     top: 0;
     right: 0;
     padding: 90px 20px 10px 10px;
     border-radius: 0 0 0 50px;
+    z-index: 9;
+    top: 0;
     opacity: 0;
     visibility: hidden;
   }
 
+  #menu-toggle {
+    opacity: 0;
+  }
+
+  #menu-toggle:checked ~ .inner__list {
+    visibility: visible;
+    opacity: 1;
+  }
+  #menu-toggle:checked ~ .burger-link > .b-line1 {
+    transform: rotate(45deg);
+  }
+  #menu-toggle:checked ~ .burger-link > .b-line2 {
+    opacity: 0;
+  }
+  #menu-toggle:checked ~ .burger-link > .b-line3 {
+    transform: rotate(-45deg);
+    margin-top: -16px;
+  }
+
   .burger-link {
+    z-index: 99999;
     position: absolute;
     top: 40px;
     right: 20px;
